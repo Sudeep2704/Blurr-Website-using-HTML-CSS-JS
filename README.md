@@ -1,0 +1,1 @@
+This is a project based on Basics of Web development. This website is created using HTML, CSS, JS and DOM. The function of the website is when we click on the refresh, the photo gets unblurr showing transition from 100% to 0%.
