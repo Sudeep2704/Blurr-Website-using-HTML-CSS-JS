@@ -1,0 +1,33 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+
+font-family: 'Times New Roman', Times, serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+overflow: hidden;
+margin: 0;
+}
+
+
+.bg {
+    background: url(https://images.unsplash.com/photo-1557444589-fc3df1ff17a8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fHw%3D);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(100px);
+
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}
